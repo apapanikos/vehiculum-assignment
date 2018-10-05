@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vehiculum</title>
+
+    <!-- STYLES -->
+
+    <!-- MAIN -->
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+
+    <!-- FONT-AWESOME  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+    <!-- SLICK THEME -->
+    <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.1/slick/slick.css"/>
+    <!-- // Add the new slick-theme.css if you want the default styling -->
+    <link rel="stylesheet" type="text/css" href="plugins/slick-1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+     <header>
+         <div class="nav-container">
+            <div class="burger-cont">
+                <span class="burger" onclick="openNav()">&#9776;</span>
+            </div>
+            <div class="nav">
+                <div class="logo">
+                    <img class="black" src="assets/logo.png">
+                    <img class="white" src="assets/logo-white.png" style="width:80px;">
+                </div>
+                <div id="myNav" class="main">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <ul class="menu">
+                        <li class="item">
+                        <a href="#">Special Offers</a>
+                        </li>
+                
+                        <li class="item">
+                            <a href="#">Browse Vehicles</a>
+                        </li>
+                
+                        <li class="item">
+                            <a href="#">About us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="icons">
+                        <div class="cont">
+                            <img  class="black" src="assets/shop2.png">
+                            <img class="white" src="assets/shopWhite.png" style="width:20px;">
+                        </div>
+                        <div class="cont" id="line">
+                            <img src="assets/line.png">
+                        </div>
+                        <div class="cont">
+                                <a class="dropdown-toggle" href="#" title="Menu">
+                                    <img  class="black" src="assets/collapse3.png">
+                                    <img  class="white" src="assets/collapseWhite.png" style="width:20px;">
+                                </a>
+                                <ul class="dropdown">
+                                    <li><a href="#">Contracts</a></li>
+                                    <li><a href="#">Wishlist</a></li>
+                                    <hr width="80%">
+                                    <li><a href="#">Account settings</a></li>
+                                    <li><a href="#">Fleet Management</a></li>
+                                    <hr width="80%">
+                                    <li><a href="#">Login / Sign Up</a></li>
+                                </ul>
+                        </div>
+
+                </div>
+            </div>
+        </div>  
+        <div class="cover">
+            <div class="container">
+                <div class="wrapper">
+                    <h1>BEST LEASING DEALS <br>
+                    IN ONE PLACE.</h1>
+                    <p>VEHICULUM customers save an average of <span>&#8364; 4.000</span></p>
+                    <div class="btn-container">
+                        <a  class="btn-gold" href="#">select car</a>
+                        <a class="btn-tran" href="#">help me to find right car</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- MAIN CONTENT -->
+    <section #carousel>
+        <div class="container">
+            <div class="offers-title">   
+                <img class="column" src="assets/flame.png" alt="offers">
+                <h1 class="column">Only on Vehiculum</h1>
+            </div>
+            <div class="my-carousel">
+                 <div class="card">
+                     <div class="card-top">
+                        <div class="top-left-card">                
+                            <h3>Jaguar XE</h3>
+                            <h4 style="  color:#7F7F7F;">20d AWD</h4>
+                        </div>
+                        <div class="top-right-card">
+                            <div class="right-insider">              
+                                <h4 style="text-decoration: underline;">Attractives</h4>
+                                <h3 style="font-size:16px;">9.3</h3> 
+                            </div>   
+                        </div>
+                    </div>
+                    <img src="assets/Jaguar.png" alt="jaguar" style="width:100%">
+                    <div class="card-cont">
+                        <p>Avr. cost per month <span style="float: right;">€ 799</span></p>
+                        <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 649</span></p>
+                        <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 4649</span>
+                        </p>
+                        <p style="margin-top: 1.7em;">This offer is valid only for the next 48 hours. Hurry up!</p> 
+                    </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Porsche</h3>
+                               <h4 style="  color:#7F7F7F;">Boxter 718 GTS</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">8.1</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Porsche.png" alt="porsche" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 967</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 835,1</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 8655</span>
+                           </p>
+                           <p style="margin-top: 1.7em;">This offer is valid only for the next 48 hours. Hurry up!</p> 
+                       </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Ford</h3>
+                               <h4 style="  color:#7F7F7F;">Modeo Tournament</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">10</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Ford.png" alt="ford" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 145</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 835,1</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 6785</span>
+                           </p>
+                           <p style="margin-top: 1.7em;">This offer is valid only for the next 48 hours. Hurry up!</p> 
+                       </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Volvo</h3>
+                               <h4 style="  color:#7F7F7F;">V40 T3 Momentum</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">9.9</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Volvo.png" alt="volvo" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 189</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 119</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 6785</span>
+                           </p>
+                           <p style="margin-top: 1.7em;">This offer is valid only for the next 48 hours. Hurry up!</p> 
+                       </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Porsche</h3>
+                               <h4 style="  color:#7F7F7F;">Boxter 718 GTS</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">8.1</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Porsche.png" alt="jaguar" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 967</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 835,1</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 8655</span>
+                           </p>
+                           <p style="margin-top: 1.7em;"></p> 
+                       </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Porsche</h3>
+                               <h4 style="  color:#7F7F7F;">Boxter 718 GTS</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">8.1</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Porsche.png" alt="jaguar" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 967</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 835,1</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 8655</span>
+                           </p>
+                           <p style="margin-top: 1.7em;"></p> 
+                       </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Porsche</h3>
+                               <h4 style="  color:#7F7F7F;">Boxter 718 GTS</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">8.1</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Porsche.png" alt="jaguar" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 967</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 835,1</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 8655</span>
+                           </p>
+                           <p style="margin-top: 1.7em;"></p> 
+                       </div>
+                </div>
+                <div class="card">
+                        <div class="card-top">
+                           <div class="top-left-card">                
+                               <h3>Porsche</h3>
+                               <h4 style="  color:#7F7F7F;">Boxter 718 GTS</h4>
+                           </div>
+                           <div class="top-right-card">
+                               <div class="right-insider">              
+                                   <h4 style="text-decoration: underline;">Attractives</h4>
+                                   <h3 style="font-size:16px;">8.1</h3> 
+                               </div>   
+                           </div>
+                       </div>
+                       <img src="assets/Porsche.png" alt="jaguar" style="width:100%">
+                       <div class="card-cont">
+                           <p>Avr. cost per month <span style="float: right;">€ 967</span></p>
+                           <p style="line-height: 0.2em;">Vehiculum price <span style="float: right;">€ 835,1</span></p>
+                           <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 8655</span>
+                           </p>
+                           <p style="margin-top: 1.7em;"></p> 
+                       </div>
+                </div>
+            </div>
+            <div class="brands">
+                <h3 style="font-size:20px;">Find leasing for your car</h3>
+                <img src="assets/brands.png" alt="brands">
+            </div>
+        </div>
+
+        <!-- CAROUSEL -->
+
+
+    </section>
+    <footer>
+            <div class="cover">
+                    <div class="month-offer">
+                            <div class="month-left">
+                                    <h2>OFFER OF THE MONTH</h2>
+                                    <h3>Ford Mondeo 1.5 Eco Boost</h3>
+                            </div>
+                            <div class="month-right">
+                                    <h4>Attractives</h4>
+                                    <h3>10</h3>
+                             </div>
+                   </div>
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="cont-wrapper">
+                            <div class="card-cont">
+                                <p>Avr. cost per month <span style="float: right; color:black !important;">€ 799</span></p>
+                                <p style="line-height: 0.2em;">Vehiculum price <span style="float: right; color:black !important;">€ 649</span></p>
+                                <p style="line-height: 2.5em;">Saved during deal <span style="float: right; color:#D0021B;">€ 4649</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="btn-container">
+                            <a  class="btn-red" href="#">LAST 2 CARS AVAILABLE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </footer>
+    
+</body>
+<!-- JQUERY -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- SLICK CAROUSEL -->
+<script type="text/javascript" src="plugins/slick-1.8.1/slick/slick.min.js"></script>
+
+<!-- CUSTOM -->
+<script type="text/javascript" src="js/custom.js"></script>
+
+</html>
